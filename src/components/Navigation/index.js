@@ -8,7 +8,7 @@ const Navigation = (props) => {
         setContactSelected
     } = props;
 
-    return(
+    return (
         // Do I need anthing besides just the nav?
         <nav>
             <ul className = "flex-row">
@@ -18,7 +18,7 @@ const Navigation = (props) => {
                     </a>
                 </li>
                 <li className = {/* other class(es) */ `${contactSelected && 'navActive'}`}>
-                    
+
                 </li>
             </ul>
         </nav>
