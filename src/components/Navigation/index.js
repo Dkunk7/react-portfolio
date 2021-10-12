@@ -14,11 +14,11 @@ const Navigation = (props) => {
             <ul className = "flex-row">
                 <li >
                     <a href = "#about" onClick = {() => setContactSelected(false)}>
-                        About me
+                        Home
                     </a>
                 </li>
                 <li className = {/* other class(es) */ `${contactSelected && 'navActive'}`}>
-
+                    <span onClick = {() => setContactSelected(true)}>Contact me</span>
                 </li>
             </ul>
         </nav>
