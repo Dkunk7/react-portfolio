@@ -11,7 +11,7 @@ const Project = (props) => {
             {projects.map((project) => (
                 <div key = {project.title} className = "proj-container">
                     <h3 className = "project-title">{project.title}</h3>
-                    <a href = {project.link} target = "_blank" rel="noreferrer">
+                    <a className = "" href = {project.link} target = "_blank" rel="noreferrer">
                         <img src = {require(`../../assets/project-images/${project.image}.PNG`).default} width = "800" height = "500" alt = {`${project.title} sample`}/>
                     </a>
                     <p className = "repo-text">Check out the <a className = "repo-link" href = {project.repo} target = "_blank" rel = "noreferrer">repository!<a/></a></p>

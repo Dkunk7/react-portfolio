@@ -14,7 +14,7 @@ const About = () => {
                     I'm a web developer! My skills focus around the MERN stack, but I'm excited to learn anything that comes my way. Below, you'll find my recent work, and feel free to head over to the Contact me section to get in touch!
                 </p>
             </div>
-            <img className = "about-img" src = {myFace} style = {{ width: "10%"}} alt = "my face"/>
+            <img className = "about-img" src = {myFace} alt = "my face"/>
         </div>
     )
 }
