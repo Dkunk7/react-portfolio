@@ -6,6 +6,7 @@ import Navigation from './components/Navigation';
 import Contact from './components/Contact';
 import Project from './components/Project';
 import About from './components/About';
+import 'react-bootstrap';
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
@@ -19,7 +20,8 @@ function App() {
   ]);
 
   return (
-    <div className="App">
+    <div className="App page-container">
+      <div className = "content-wrap">
       <Header
         currentNav = {currentNav}
         setCurrentNav = {setCurrentNav}
@@ -37,6 +39,7 @@ function App() {
         )} 
       </main>
       <Footer></Footer>
+      </div>
     </div>
   );
 }

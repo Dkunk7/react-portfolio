@@ -1,5 +1,5 @@
 import React from 'react';
-import myLogo from '../../assets/project-images/DKLogo1.png';
+import { Nav } from 'react-bootstrap';
 
 const Navigation = (props) => {
     const {
@@ -11,21 +11,21 @@ const Navigation = (props) => {
 
     return (
         // Do I need anthing besides just the nav?
-        <nav>
-            <a href = "/">
-                <img src = {myLogo} style = {{ width: "6%" }} alt = "logo"/>
-            </a>
-            <ul className = "flex-row">
-                <li >
-                    <a href = "#about" onClick = {() => setContactSelected(false)}>
+        <Nav className = "flex-row align-center">
+            
+            <Nav.Item>
+                <Nav.Link className = "nav-link" >
+                    <a href = "#about" className = "no-link-highlight" onClick = {() => setContactSelected(false)}>
                         Home
                     </a>
-                </li>
-                <li className = {/* other class(es) */ `${contactSelected && 'navActive'}`}>
+                </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+                <Nav.Link className = {`nav-link ${contactSelected && 'navActive'}`}>
                     <span onClick = {() => setContactSelected(true)}>Contact me</span>
-                </li>
-            </ul>
-        </nav>
+                </Nav.Link>
+            </Nav.Item>
+        </Nav>
     );
 }
 
