@@ -14,9 +14,9 @@ function App() {
   const [currentNav, setCurrentNav] = useState("home");
 
   const [projects] = useState([
-    { title: 'Run Buddy', image: 'RunBuddyScreenshot', link: "https://dkunk7.github.io/run-buddy/" },
-    { title: 'Advice from a Pirate', image: 'PirateAdviceScreenshot', link: 'https://kait-weishaar.github.io/Pirate-Advice/'},
-    { title: 'Volley-All', image: 'VolleyAllScreenshot', link: "https://volley-all.herokuapp.com/login"}
+    { title: 'Run Buddy', image: 'RunBuddyScreenshot', link: "https://dkunk7.github.io/run-buddy/", repo: "https://github.com/Dkunk7/run-buddy"},
+    { title: 'Advice from a Pirate', image: 'PirateAdviceScreenshot', link: 'https://kait-weishaar.github.io/Pirate-Advice/', repo: "https://github.com/kait-weishaar/Pirate-Advice"},
+    { title: 'Volley-All', image: 'VolleyAllScreenshot', link: "https://volley-all.herokuapp.com/login", repo: "https://github.com/rrcampbell-exe/volley-all"}
   ]);
 
   return (
@@ -31,7 +31,7 @@ function App() {
       <main>
         {!contactSelected ? (
           <>
-            <About />
+            <About></About>
             <Project projects = {projects}></Project>
           </>
         ) : (

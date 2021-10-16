@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { emailValidator } from '../../utils/emailValidator';
+// import { Button } from 'react-bootstrap';
 
 const Contact = () => {
     const [contactState, setContactState] = useState({ name: '', email: '', message: ''});
@@ -34,27 +35,30 @@ const Contact = () => {
     }
 
     return(
-        <div>
-            <h1>Contact me!</h1>
+        <div className = "contact">
+            <h1 className = "sect-header">Contact me!</h1>
+            <p>
+                (This doesn't work quite yet)
+            </p>
             <form onSubmit = {handleSubmit}>
-                <div>
-                    <label htmlFor = "name">Name:</label>
+                <div className = "label-container">
+                    <label htmlFor = "name">Name: </label>
                     <input type = "text" defaultValue = {name} onBlur = {handleChange} name = "name"/>
                 </div>
-                <div>
-                    <label htmlFor = "email">Email:</label>
+                <div className = "label-container">
+                    <label htmlFor = "email">Email: </label>
                     <input type = "email" defaultValue = {email} onBlur = {handleChange} name = "email"/>
                 </div>
-                <div>
-                    <label htmlFor = "message">Message:</label>
-                    <input type = "message" defaultValue = {message} onBlur = {handleChange} rows = "5"/>
+                <div className = "label-container textarea">
+                    <label htmlFor = "message">Message: </label>
+                    <textarea name = "message" defaultValue = {message} onBlur = {handleChange} rows = "2"/>
                 </div>
                 {errorMessage && (
                     <div>
-                        <p >{errorMessage}</p>
+                        <p className = "err-msg">{errorMessage}</p>
                     </div>
                 )}
-                <button type = "submit">Submit</button>
+                <button className = "contact-btn" type = "submit">Submit</button>
             </form>
         </div>
     );

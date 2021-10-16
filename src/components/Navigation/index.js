@@ -21,6 +21,13 @@ const Navigation = (props) => {
                 </Nav.Link>
             </Nav.Item>
             <Nav.Item>
+                <Nav.Link className = "nav-link" href = "#project-sect">
+                    <a className = "no-link-highlight" onClick = {() => setContactSelected(false)}>
+                        Projects
+                    </a>
+                </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
                 <Nav.Link className = {`nav-link ${contactSelected && 'navActive'}`}>
                     <span onClick = {() => setContactSelected(true)}>Contact me</span>
                 </Nav.Link>
