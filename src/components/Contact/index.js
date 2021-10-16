@@ -41,7 +41,7 @@ const Contact = () => {
                     <label htmlFor = "name">Name:</label>
                     <input type = "text" defaultValue = {name} onBlur = {handleChange} name = "name"/>
                 </div>
-                <div>\
+                <div>
                     <label htmlFor = "email">Email:</label>
                     <input type = "email" defaultValue = {email} onBlur = {handleChange} name = "email"/>
                 </div>

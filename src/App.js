@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Navigation from './components/Navigation';
 import Contact from './components/Contact';
 import Project from './components/Project';
+import About from './components/About';
 
 function App() {
   const [contactSelected, setContactSelected] = useState(false);
@@ -28,12 +29,14 @@ function App() {
       <main>
         {!contactSelected ? (
           <>
+            <About />
             <Project projects = {projects}></Project>
           </>
         ) : (
           <Contact></Contact>
         )} 
       </main>
+      <Footer></Footer>
     </div>
   );
 }

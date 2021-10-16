@@ -12,11 +12,6 @@ const Header = (props) => {
 
     return(
         <header>
-            <h2>
-                <a hred = "/">
-                    <span>Dylan?</span> {/* Change this? Add logo? */}
-                </a>
-            </h2>
             <Navigation
                 currentNav = {currentNav}
                 setCurrentNav = {setCurrentNav}
