@@ -1,28 +1,29 @@
 {
   "files": {
     "main.css": "/react-portfolio-SPA/static/css/main.0f1d14a6.chunk.css",
-    "main.js": "/react-portfolio-SPA/static/js/main.b6ca8eac.chunk.js",
-    "main.js.map": "/react-portfolio-SPA/static/js/main.b6ca8eac.chunk.js.map",
-    "runtime-main.js": "/react-portfolio-SPA/static/js/runtime-main.a22406db.js",
-    "runtime-main.js.map": "/react-portfolio-SPA/static/js/runtime-main.a22406db.js.map",
-    "static/js/2.b2c73826.chunk.js": "/react-portfolio-SPA/static/js/2.b2c73826.chunk.js",
-    "static/js/2.b2c73826.chunk.js.map": "/react-portfolio-SPA/static/js/2.b2c73826.chunk.js.map",
-    "static/js/3.2b52e96d.chunk.js": "/react-portfolio-SPA/static/js/3.2b52e96d.chunk.js",
-    "static/js/3.2b52e96d.chunk.js.map": "/react-portfolio-SPA/static/js/3.2b52e96d.chunk.js.map",
+    "main.js": "/react-portfolio-SPA/static/js/main.05e0e852.chunk.js",
+    "main.js.map": "/react-portfolio-SPA/static/js/main.05e0e852.chunk.js.map",
+    "runtime-main.js": "/react-portfolio-SPA/static/js/runtime-main.71e7567e.js",
+    "runtime-main.js.map": "/react-portfolio-SPA/static/js/runtime-main.71e7567e.js.map",
+    "static/js/2.d24e8769.chunk.js": "/react-portfolio-SPA/static/js/2.d24e8769.chunk.js",
+    "static/js/2.d24e8769.chunk.js.map": "/react-portfolio-SPA/static/js/2.d24e8769.chunk.js.map",
+    "static/js/3.34141f02.chunk.js": "/react-portfolio-SPA/static/js/3.34141f02.chunk.js",
+    "static/js/3.34141f02.chunk.js.map": "/react-portfolio-SPA/static/js/3.34141f02.chunk.js.map",
     "index.html": "/react-portfolio-SPA/index.html",
     "static/css/main.0f1d14a6.chunk.css.map": "/react-portfolio-SPA/static/css/main.0f1d14a6.chunk.css.map",
-    "static/js/2.b2c73826.chunk.js.LICENSE.txt": "/react-portfolio-SPA/static/js/2.b2c73826.chunk.js.LICENSE.txt",
+    "static/js/2.d24e8769.chunk.js.LICENSE.txt": "/react-portfolio-SPA/static/js/2.d24e8769.chunk.js.LICENSE.txt",
     "static/media/DKLogo1.7dd629ff.png": "/react-portfolio-SPA/static/media/DKLogo1.7dd629ff.png",
     "static/media/MeHAHA.bd0410c8.png": "/react-portfolio-SPA/static/media/MeHAHA.bd0410c8.png",
     "static/media/PirateAdviceScreenshot.PNG": "/react-portfolio-SPA/static/media/PirateAdviceScreenshot.1ecc299e.PNG",
+    "static/media/RegWarehouseScreenshot.PNG": "/react-portfolio-SPA/static/media/RegWarehouseScreenshot.5eb9f92b.PNG",
     "static/media/RunBuddyScreenshot.PNG": "/react-portfolio-SPA/static/media/RunBuddyScreenshot.71de40a0.PNG",
     "static/media/VolleyAllScreenshot.PNG": "/react-portfolio-SPA/static/media/VolleyAllScreenshot.4b141444.PNG",
     "static/media/App.css": "/react-portfolio-SPA/static/media/WebsiteBackground2.a3c4c407.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a22406db.js",
-    "static/js/2.b2c73826.chunk.js",
+    "static/js/runtime-main.71e7567e.js",
+    "static/js/2.d24e8769.chunk.js",
     "static/css/main.0f1d14a6.chunk.css",
-    "static/js/main.b6ca8eac.chunk.js"
+    "static/js/main.05e0e852.chunk.js"
   ]
 }
